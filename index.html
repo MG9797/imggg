@@ -2,10 +2,43 @@
   <head>
     <meta charset="UTF-8">
     <script src="script.js"></script>
-    <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+     <link rel="stylesheet" type="text/css" href="styles.css"> 
+
+     <style>
+     .flex-container {
+       display: flex;
+       justify-content: flex-end;
+       background-color: #f1f1f1;
+     }
+
+     .menuItem {
+       flex-grow: 4;
+      
+     }
+    
+   
+     .flex-container > div {
+       background-color: orange;
+       color: white;
+       margin: 1px;
+       text-align: center;
+       line-height: 50px;
+       font-size: 30px;
+     }
+      
+     </style>
   </head>
   <body>
-    <h1>Hello there!</h1>
-    <a href="/me.html">My other page</a>
+    <h1>Logo Here</h1>
+    <p>  have your punch line here </p>
+    <div class="flex-container" > 
+      <div class="menuItem">1</div>
+      <div class="menuItem">2</div>
+      <div style="flex-grow: 4">3</div>
+      <div style="flex-grow: 4">4</div>
+    </div>
+    <img src="https://cdn.jsdelivr.net/gh/MG9797/imggg@master/Capture.PNG" alt=" logo here" style="Width:100%" >
+
+   
   </body>
 </html>
